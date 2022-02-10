@@ -1,0 +1,292 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [{
+        "id": "lgvpo79",
+        "type": "geojson",
+        "config": {
+          "dataId": "dxs1ufi78",
+          "label": "MBTA_Systemwide_GTFS_Map-CR_Routes",
+          "color": [183, 136, 94],
+          "highlightColor": [252, 242, 26, 255],
+          "columns": {
+            "geojson": "_geojson"
+          },
+          "isVisible": true,
+          "visConfig": {
+            "opacity": 0.8,
+            "strokeOpacity": 0.8,
+            "thickness": 0.5,
+            "strokeColor": null,
+            "colorRange": {
+              "name": "Global Warming",
+              "type": "sequential",
+              "category": "Uber",
+              "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]
+            },
+            "strokeColorRange": {
+              "name": "Global Warming",
+              "type": "sequential",
+              "category": "Uber",
+              "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]
+            },
+            "radius": 10,
+            "sizeRange": [0, 10],
+            "radiusRange": [0, 50],
+            "heightRange": [0, 500],
+            "elevationScale": 5,
+            "enableElevationZoomFactor": true,
+            "stroked": true,
+            "filled": false,
+            "enable3d": false,
+            "wireframe": false
+          },
+          "hidden": false,
+          "textLabel": [{
+            "field": null,
+            "color": [255, 255, 255],
+            "size": 18,
+            "offset": [0, 0],
+            "anchor": "start",
+            "alignment": "center"
+          }]
+        },
+        "visualChannels": {
+          "colorField": null,
+          "colorScale": "quantile",
+          "strokeColorField": null,
+          "strokeColorScale": "quantile",
+          "sizeField": null,
+          "sizeScale": "linear",
+          "heightField": null,
+          "heightScale": "linear",
+          "radiusField": null,
+          "radiusScale": "linear"
+        }
+      }, {
+        "id": "ceaxll9",
+        "type": "geojson",
+        "config": {
+          "dataId": "1fbg3l6hd",
+          "label": "MBTA_Systemwide_GTFS_Map-RT_Routes",
+          "color": [18, 147, 154],
+          "highlightColor": [252, 242, 26, 255],
+          "columns": {
+            "geojson": "_geojson"
+          },
+          "isVisible": true,
+          "visConfig": {
+            "opacity": 0.8,
+            "strokeOpacity": 0.8,
+            "thickness": 0.5,
+            "strokeColor": [28, 27, 27],
+            "colorRange": {
+              "name": "Global Warming",
+              "type": "sequential",
+              "category": "Uber",
+              "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]
+            },
+            "strokeColorRange": {
+              "name": "Global Warming",
+              "type": "sequential",
+              "category": "Uber",
+              "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]
+            },
+            "radius": 10,
+            "sizeRange": [0, 10],
+            "radiusRange": [0, 50],
+            "heightRange": [0, 500],
+            "elevationScale": 5,
+            "enableElevationZoomFactor": true,
+            "stroked": true,
+            "filled": false,
+            "enable3d": false,
+            "wireframe": false
+          },
+          "hidden": false,
+          "textLabel": [{
+            "field": null,
+            "color": [255, 255, 255],
+            "size": 18,
+            "offset": [0, 0],
+            "anchor": "start",
+            "alignment": "center"
+          }]
+        },
+        "visualChannels": {
+          "colorField": null,
+          "colorScale": "quantile",
+          "strokeColorField": null,
+          "strokeColorScale": "quantile",
+          "sizeField": null,
+          "sizeScale": "linear",
+          "heightField": null,
+          "heightScale": "linear",
+          "radiusField": null,
+          "radiusScale": "linear"
+        }
+      }, {
+        "id": "cil24mm",
+        "type": "geojson",
+        "config": {
+          "dataId": "8lveq1qnf",
+          "label": "MBTA_Systemwide_GTFS_Map-Bus_Routes",
+          "color": [255, 203, 153],
+          "highlightColor": [252, 242, 26, 255],
+          "columns": {
+            "geojson": "_geojson"
+          },
+          "isVisible": true,
+          "visConfig": {
+            "opacity": 0.8,
+            "strokeOpacity": 0.8,
+            "thickness": 0.5,
+            "strokeColor": [253, 236, 0],
+            "colorRange": {
+              "name": "Global Warming",
+              "type": "sequential",
+              "category": "Uber",
+              "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]
+            },
+            "strokeColorRange": {
+              "name": "Global Warming",
+              "type": "sequential",
+              "category": "Uber",
+              "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]
+            },
+            "radius": 10,
+            "sizeRange": [0, 10],
+            "radiusRange": [0, 50],
+            "heightRange": [0, 500],
+            "elevationScale": 5,
+            "enableElevationZoomFactor": true,
+            "stroked": true,
+            "filled": false,
+            "enable3d": false,
+            "wireframe": false
+          },
+          "hidden": false,
+          "textLabel": [{
+            "field": null,
+            "color": [255, 255, 255],
+            "size": 18,
+            "offset": [0, 0],
+            "anchor": "start",
+            "alignment": "center"
+          }]
+        },
+        "visualChannels": {
+          "colorField": null,
+          "colorScale": "quantile",
+          "strokeColorField": null,
+          "strokeColorScale": "quantile",
+          "sizeField": null,
+          "sizeScale": "linear",
+          "heightField": null,
+          "heightScale": "linear",
+          "radiusField": null,
+          "radiusScale": "linear"
+        }
+      }],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "8lveq1qnf": [{
+              "name": "OBJECTID",
+              "format": null
+            }, {
+              "name": "shape_id",
+              "format": null
+            }, {
+              "name": "route_id",
+              "format": null
+            }, {
+              "name": "route_short_name",
+              "format": null
+            }, {
+              "name": "route_long_name",
+              "format": null
+            }],
+            "1fbg3l6hd": [{
+              "name": "OBJECTID",
+              "format": null
+            }, {
+              "name": "shape_id",
+              "format": null
+            }, {
+              "name": "route_id",
+              "format": null
+            }, {
+              "name": "route_short_name",
+              "format": null
+            }, {
+              "name": "route_long_name",
+              "format": null
+            }],
+            "dxs1ufi78": [{
+              "name": "OBJECTID",
+              "format": null
+            }, {
+              "name": "shape_id",
+              "format": null
+            }, {
+              "name": "route_id",
+              "format": null
+            }, {
+              "name": "route_short_name",
+              "format": null
+            }, {
+              "name": "route_long_name",
+              "format": null
+            }]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 42.503490867026976,
+      "longitude": -71.18779052045961,
+      "pitch": 0,
+      "zoom": 11.251268900521758,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "light",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [218.82023004728686, 223.47597962276103, 223.47597962276103],
+      "mapStyles": {}
+    }
+  }
+}
